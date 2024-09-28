@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.test {
+    color: #051c425b;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-main {
+    background-color: #212121;
+}
+
+.bg-main-yellow {
+    background-color: #b30202;
+}
+
+.text-main {
+    color: #212121;
+}
+
+.text-main-yellow {
+    color: #ffd700;
+}
+
+.text-footer {
+    color: #051c42;
+}
+
+.bg-footer {
+    background-color: #051c42;
+}

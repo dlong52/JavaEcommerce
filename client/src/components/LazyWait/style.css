@@ -1,0 +1,15 @@
+.wait{
+    transition: all 1s;
+    animation: wait 2s infinite ease-in-out;
+}
+@keyframes wait {
+    0%{
+        opacity: 1;
+    }25%{
+        opacity: 0.25;
+    }75%{
+        opacity: 0.5;
+    }100%{
+        opacity: 1;
+    }
+}
